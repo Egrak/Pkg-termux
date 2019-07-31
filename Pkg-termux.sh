@@ -23,16 +23,19 @@ echo -e '\e[1;33m' "      ..............Loading..............."
 apt update && apt upgrade -y 
 termux-setup-storage 
 pkg install python 
-pkg install python2 
+pkg install python2
+pkg install python2-dev
 pkg install python3
 pkg install ruby 
 pkg install git 
 pkg install php 
 pkg install perl 
-pkg install nmap 
+pkg install nmap
+pkg install grep
 pkg install bash 
 pkg install clang 
-pkg install macchanger 
+pkg install macchanger
+pkg install openssh
 pkg install nano 
 pkg install figlet 
 pkg install cowsay 
@@ -46,6 +49,16 @@ pkg install wget
 pkg install wcalc 
 pkg install proot 
 pkg install openssl
+pkg install hydra
+pkg install help
+gem install lolcat
+pkg install w3m
+pkg install host
+pkg install unrar
+pip install bundle
+pip install requestes
+pip2 install requests
+
 echo -e '\e[1;33m' "     ---------------DONE--------------"
 exit
 fi
